@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro dos cursos e alunos" />
+
+    <Button
+        android:id="@+id/btnMenuCadastrarCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CADASTRAR CURSO" />
+
+    <Button
+        android:id="@+id/btnMenuCadastrarAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CADASTRAR ALUNO" />
+
+    <Button
+        android:id="@+id/btnMenuListarAlunos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LISTAR ALUNOS" />
+
+    <Button
+        android:id="@+id/btnMenuAlterarDadosCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALTERAR DADOS DO CURSO" />
+
+    <Button
+        android:id="@+id/btnMenuAlterarDadosAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALTERAR DADOS DO ALUNO" />
+</LinearLayout>

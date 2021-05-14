@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlterarDadosCurso"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alterar dados do Curso" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Codigo do Curso" />
+
+    <EditText
+        android:id="@+id/edtAlterCodCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do Curso" />
+
+    <EditText
+        android:id="@+id/edtAlterNomeCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="nome do curso"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantidade de Horas" />
+
+    <EditText
+        android:id="@+id/edtAlterQuatidadeHorasCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnAlterAlterarDadosCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALTERAR DADOS" />
+
+    <Button
+        android:id="@+id/btnAlterExcluirDadosCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXCLUIR DADOS" />
+
+    <Button
+        android:id="@+id/btnAlterVoltarCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VOLTAR" />
+
+</LinearLayout>

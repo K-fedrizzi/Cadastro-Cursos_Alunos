@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CadastrarCurso">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro do Curso" />
+
+    <TextView
+        android:id="@+id/txtNomeCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do Curso" />
+
+    <EditText
+        android:id="@+id/edtCadNomeCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Informe nome do curso"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtCadQuantidadeHoras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantidade de Horas" />
+
+    <EditText
+        android:id="@+id/edtCadHoras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="100.00"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCadCadastrarCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CADASTRAR CURSO" />
+
+    <Button
+        android:id="@+id/btnCadVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VOLTAR" />
+</LinearLayout>
